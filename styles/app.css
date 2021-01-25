@@ -42,6 +42,11 @@ p {
     font-variant: normal;
 }
 
+.about {
+    border-bottom: 1px solid white !important;
+    padding-bottom: 24px;
+}
+
 h1,h2,h3,h4,h5 {
     font-family: dayposterblackregular, sans-serif;
     font-style: normal;
@@ -55,13 +60,17 @@ img.profile {
     max-height:100%;
     -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    b list-group-flush align-items-centerox-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 /* Home and mailing list */
 
 .home .intro {
     margin-bottom: 30px;
+}
+
+.home .intro .list-group {
+	margin-top: 12px;
 }
 
 .home .intro .list-group-item {
@@ -78,9 +87,11 @@ img.profile {
 .home .card .list-group-item {
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
-    width: 90%;
+    padding-left: 0;
+    /*width: 90%;
     border-top: 1px solid white !important;
     border-bottom: 1px solid white !important;
+    */
 }
 
 .home .card .list-group-item div {
